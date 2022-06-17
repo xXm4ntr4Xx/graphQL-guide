@@ -22,6 +22,7 @@ export const typeDefs  = gql`
   #Mutations to update,create data
     type Mutation{
       #in this case we need to pass the argument we specify inside our fakeData table
+      
       createUser(name:String!,age:Int!,married:Boolean!): User!
     }
 
