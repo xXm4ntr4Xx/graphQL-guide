@@ -24,6 +24,7 @@ export const typeDefs  = gql`
       #in this case we need to pass the argument we specify inside our fakeData table
       
       createUser(name:String!,age:Int!,married:Boolean!): User!
+      deleteUser(name:String!,age:Int!,married:Boolean!): User!
     }
 
 `
